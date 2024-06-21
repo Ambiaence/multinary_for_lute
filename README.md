@@ -1,9 +1,9 @@
 # Multinary For Lute
 
 # What is this?
-A hacky webserver that embeds multiple dictionaries into one html page after it resolves the page path. It extends functionality by making dictionaries on [Lute V3](https://github.com/LuteOrg/lute-v3) load asynchronously. This save multiple seconds and clicks every word. It makes reading texts that contain alot of unknown words overall more enjoyable. 
+A hacky webserver that embeds multiple dictionaries into one html page after it resolves the page path. It extends functionality by making dictionaries on [Lute V3](https://github.com/LuteOrg/lute-v3) load asynchronously. This saves multiple seconds and clicks every word. Using this tool makes reading texts that contain alot of unknown words overall more enjoyable. 
 
-# Looks like this
+# It works like this. Notice the bottom left panel.
 ![showcase](multinary.gif)
 
 # How do i set this up?
@@ -11,7 +11,6 @@ Tell lute to go to the webserver like this.
 ![setup](setup.png)
 
 Then run `go run main.go`.
-
 
 # How do I change the settings?
 
