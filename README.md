@@ -8,7 +8,7 @@ A hacky webserver that embeds multiple dictionaries onto one html page after it 
 
 # How do i set this up?
 Tell lute to go to the webserver like this.
-![setup](seutp.png)
+![setup](setup.png)
 
 Then run `go run main.go`.
 
