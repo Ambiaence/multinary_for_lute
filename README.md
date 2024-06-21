@@ -5,3 +5,27 @@ A hacky webserver that embeds multiple dictionaries onto one html page after it 
 
 # Looks like this
 ![showcase](multinary.gif)
+
+# How do i set this up?
+Tell lute to go to the webserver like this.
+![setup](seutp.png)
+
+Then run `go run main.go`.
+
+
+# How do I change the settings?
+
+Pick up a shovel and edit the source! For example, you can change or add dictionaries by looking in the main function.
+
+```golang
+func main() {
+	elements = add_website_to_elements(elements, "https://www.dwds.de/wb/")
+	elements = add_website_to_elements(elements, "https://www.dict.cc/?s=")
+	elements = add_website_to_elements(elements, "https://context.reverso.net/translation/german-english/")
+
+	http.HandleFunc("/word/", view_handler)
+	log.Fatal(http.ListenAndServe(":8080", nil))
+}
+```
+
+The order elements are appended is the order they appear in html.
