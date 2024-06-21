@@ -14,7 +14,7 @@ Then run `go run main.go`.
 
 # How do I change the settings?
 
-Pick up a shovel and edit the source! For example, you can change or add dictionaries by looking in the main function.
+Pick up a shovel and edit the source! For example, you can change or add dictionaries by considering in the main function.
 
 ```golang
 func main() {
